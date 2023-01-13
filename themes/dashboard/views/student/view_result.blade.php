@@ -66,8 +66,8 @@
                                 <td>{{ $result_info->no_ans}}</td>
                             </tr>
                             <tr>
-                                <td>Total : </td>
-                                <td>{{ $result_info->yes_ans+$result_info->no_ans}}</td>
+                                <td>Total Marks : </td>
+                                <td>{{ $result_info->yes_ans}}</td>
                             </tr>
                         </table>
                     </div>
